@@ -159,7 +159,7 @@ li {
 }
 
 
-footer {
+footer > div {
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -170,6 +170,13 @@ footer p {
     align-content: center;
     margin-right: 100px;
 }
+
+footer > a  {
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+
+
 
 
 /*   The section for the added form and other information */
@@ -276,10 +283,7 @@ button:hover {
     align-items: center;
 }
 
-.column1 {
-    grid-template-columns: 3fr 1fr;
-    margin: 0.5rem 0;
-}
+
 
 .column2 {
     grid-template-columns: 1fr 2fr;
