@@ -297,3 +297,125 @@ iframe {
     width: 100%;
      height: 400px;
 }
+
+/* The home page main style component */
+.section-1 {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.section-1 h1 {
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 5px;
+}
+
+
+.section-1-heading {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: .2em;
+}
+
+.section-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: .4em;
+}
+.section-2  img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.newsletter {
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    padding: 20px 0px;
+}
+
+.trips-us-button {
+     margin: 1rem;
+    background-color: rgb(163, 41, 61);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    width: 150px;
+    align-self: center;
+}
+.trips-us-button:hover {
+    background-color: #5721d6;
+}
+
+
+
+
+/* The Trips styling main component section */
+
+.trip-box {
+    border: 1px solid grey;
+    padding: 8px;
+    margin: 6px;
+}
+
+.contact-us-button {
+     margin: 1rem;
+    background-color: rgb(55, 55, 131);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    width: 150px;
+    align-self: center;
+}
+.contact-us-button:hover {
+    background-color: #20774c;
+}
+
+.contact-button{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td img {
+    width: 100px;
+    height: 90px;
+    text-align: center;
+}
+
+.line-top {
+     border-top: 1px solid grey;
+    margin: 10px;
+    padding: 20px 0px; 
+}
+
+.line-bottom {
+    border-bottom: 1px solid grey;
+    margin: 10px;
+    padding: 20px 0px; 
+}
+
+.section-1 h2 {
+    margin-bottom: 20px;
+}
